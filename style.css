@@ -95,7 +95,7 @@ header {
   text-align: center;
 }
 
-.img-container{
+.detail-container{
   padding-top: 30px;
   padding-bottom: 90px;
   display: flex;
@@ -138,3 +138,51 @@ header {
   background-image: url(img/webcamp-mother.png);
 }
 
+.strength-box{
+  width: 320px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.strength-box:nth-child(3){
+  margin-right: 0;
+}
+
+.fab,.fas{
+  font-size: 60px;
+}
+
+h3{
+  font-size: 20px;
+  padding-top: 10px;
+  color: black;
+}
+
+.strength-text{
+  text-align: left;
+  font-size: 16px;
+  color: black;
+  padding-top: 10px;
+}
+
+#profile{
+  background-color: #ECEFF1;
+}
+
+.profile-img-box{
+  width: 512px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.description{
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
